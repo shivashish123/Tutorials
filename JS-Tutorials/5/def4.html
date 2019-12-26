@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>getElementsByClassName</title>
+        <script type="text/javascript">
+
+            function fn1()
+            {
+                var para = document.getElementsByClassName("mypara");
+                para[0].style.fontSize = 24;
+                para[1].style.color = "red";
+            }
+
+
+        </script>
+    </head>
+
+    <body>
+        <p class="mypara">This is paragraph 1.</p>
+        <p>This is paragraph 2.</p>
+        <p class="mypara">This is paragraph 3.</p>
+        <p>This is paragraph 4.</p>
+        <br>
+        <button onclick="fn1()" id="btn1">Click Me</button>
+    </body>
+</html>

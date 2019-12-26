@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Objects</title>
+        <script type="text/javascript">
+
+            function buttonClick()
+            {
+                var str = document.getElementById("text1").value;
+                var str2 = document.getElementById("text2").value;
+                if(str==str2)
+                	alert("Values matched");
+                else
+                	alert("Value did not match");
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <input id="text1" placeholder="username">
+        <br>
+        <input type="password" id="text2" placeholder="password">
+        <br>
+        <button onclick="buttonClick()" id="btn1">Click Me</button>
+    </body>
+</html>
